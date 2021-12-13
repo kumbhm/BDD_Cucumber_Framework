@@ -1,0 +1,68 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "User login to amazon",
+        "description": "",
+        "id": "login-to-amazon;user-login-to-amazon",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31827771500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on amazon login page",
+            "match": {
+              "location": "amazonStepDefinitions.user_is_on_amazon_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1134169200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter username as \"email_id\" and password as \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email_id",
+                  "offset": 24
+                },
+                {
+                  "val": "password",
+                  "offset": 51
+                }
+              ],
+              "location": "amazonStepDefinitions.user_enter_username_as_and_password_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40113934100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "amazonStepDefinitions.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login to Amazon",
+    "description": "",
+    "id": "login-to-amazon",
+    "keyword": "Feature",
+    "uri": "src/test/Features/Amazon.feature"
+  }
+]
